@@ -7,7 +7,7 @@ func endApplication() {
 func runApplication(error bool) {
 	defer endApplication()
 	if error {
-		println("APLIKASI ERROR")
+		panic("APLIKASI ERROR")
 	}
 	println("Aplikasi Berjalan")
 }
