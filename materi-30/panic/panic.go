@@ -1,7 +1,7 @@
 package main
 
 func endApplication() {
-	panic("Aplikasi Selesai")
+	println("Aplikasi Selesai")
 }
 
 func runApplication(error bool) {
@@ -13,5 +13,5 @@ func runApplication(error bool) {
 }
 
 func main() {
-	runApplication(false)
+	runApplication(true)
 }
