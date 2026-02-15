@@ -19,4 +19,5 @@ func spamFilter(name string) string {
 func main() {
 	sayHelloWithFilter("Prince", spamFilter)
 	sayHelloWithFilter("Kurang Di Untung", spamFilter)
+
 }

@@ -8,6 +8,7 @@ func endApplication() {
 		fmt.Println("Aplikasi Error dengan pesan :", message)
 	}
 	println("Aplikasi Selesai")
+	
 }
 
 func runApplication(error bool) {
